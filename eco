@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="UOr-Rz_mbY29v8dtR6SxIk1p5hg7CeI9kpGe_S6jwLs" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoPoint - Rewards for Sustainable Shopping</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>EcoPoint</h1>
+        <p>Earn rewards and discounts for buying eco-friendly products</p>
+    </header>
+
+    <div class="container">
+        <section class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Earn points with every eco-friendly purchase</li>
+                <li>Redeem points for exclusive discounts</li>
+                <li>Track your eco-friendly shopping progress</li>
+                <li>Get tips on sustainable shopping</li>
+            </ul>
+        </section>
+
+        <section class="how-it-works">
+            <h2>How It Works</h2>
+            <p>With EcoPoint, every time you buy a sustainable product, you earn points that you can redeem for discounts on future purchases. Our app encourages eco-friendly shopping habits and helps you make a positive impact on the environment.</p>
+            <a href="#" class="button">Download EcoPoint</a>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form" onsubmit="return handleSubmit();">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
