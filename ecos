@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta name="google-site-verification" content="Q1KfLAJeMBBvviQqLzw_htQ_bRzUtGvIYyZa3YVKqEY" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoPoint - Belønninger for Bæredygtig Indkøb</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .features, .how-it-works, .contact {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        .button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EcoPoint</h1>
+        <p>Optjen belønninger og rabatter for at købe bæredygtige produkter</p>
+    </header>
+
+    <div class="container">
+        <section class="features">
+            <h2>Funktioner</h2>
+            <ul>
+                <li>Optjen point med hver bæredygtig køb</li>
+                <li>Indløs point for eksklusive rabatter</li>
+                <li>Hold styr på dine bæredygtige indkøb</li>
+                <li>Få tips til bæredygtig shopping</li>
+            </ul>
+        </section>
+
+        <section class="how-it-works">
+            <h2>Sådan Fungerer Det</h2>
+            <p>Med EcoPoint optjener du point hver gang, du køber et bæredygtigt produkt. Disse point kan indløses for rabatter på fremtidige køb. Vores app opmuntrer til bæredygtige shoppingvaner og hjælper dig med at gøre en positiv indvirkning på miljøet.</p>
+            <a href="#" class="button">Download EcoPoint</a>
+        </section>
+
+        <section class="contact">
+            <h2>Kontakt Os</h2>
+            <form class="contact-form" onsubmit="return handleSubmit();">
+                <label for="name">Navn:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Besked:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Besked</button>
+            </form>
+        </section>
+    </div>
+
+    <script>
+        function handleSubmit() {
+            alert('Tak for din besked! Vi vender tilbage til dig snart.');
+            return false; // Prevent actual form submission for demonstration
+        }
+    </script>
+</body>
+</html>
