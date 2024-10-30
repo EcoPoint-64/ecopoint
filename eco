@@ -1,48 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
+    <meta name="google-site-verification" content="Q1KfLAJeMBBvviQqLzw_htQ_bRzUtGvIYyZa3YVKqEY" />
     <meta name="google-site-verification" content="UOr-Rz_mbY29v8dtR6SxIk1p5hg7CeI9kpGe_S6jwLs" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoPoint - Rewards for Sustainable Shopping</title>
+    <title>EcoPoint - Belønninger for bæredygtig shopping</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
         <h1>EcoPoint</h1>
-        <p>Earn rewards and discounts for buying eco-friendly products</p>
+        <p>Tjen belønninger og rabatter for at købe klimavenlige produkter</p>
     </header>
 
     <div class="container">
         <section class="features">
-            <h2>Features</h2>
+            <h2>Funktioner</h2>
             <ul>
-                <li>Earn points with every eco-friendly purchase</li>
-                <li>Redeem points for exclusive discounts</li>
-                <li>Track your eco-friendly shopping progress</li>
-                <li>Get tips on sustainable shopping</li>
+                <li>Tjen point med hvert klimavenligt køb</li>
+                <li>Indløs point for eksklusive rabatter</li>
+                <li>Hold styr på din bæredygtige shoppingfremskridt</li>
+                <li>Få tips til bæredygtig shopping</li>
             </ul>
         </section>
 
         <section class="how-it-works">
-            <h2>How It Works</h2>
-            <p>With EcoPoint, every time you buy a sustainable product, you earn points that you can redeem for discounts on future purchases. Our app encourages eco-friendly shopping habits and helps you make a positive impact on the environment.</p>
+            <h2>Sådan fungerer det</h2>
+            <p>Med EcoPoint tjener du point hver gang, du køber et bæredygtigt produkt, som du kan indløse for rabatter på fremtidige køb. Vores app opmuntrer til bæredygtige shoppingvaner og hjælper dig med at gøre en positiv forskel for miljøet.</p>
             <a href="#" class="button">Download EcoPoint</a>
         </section>
 
         <section class="contact">
-            <h2>Contact Us</h2>
+            <h2>Kontakt os</h2>
             <form class="contact-form" onsubmit="return handleSubmit();">
-                <label for="name">Name:</label>
+                <label for="name">Navn:</label>
                 <input type="text" id="name" name="name" required>
 
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="message">Message:</label>
+                <label for="message">Besked:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
 
-                <button type="submit">Send Message</button>
+                <button type="submit">Send besked</button>
             </form>
         </section>
     </div>
